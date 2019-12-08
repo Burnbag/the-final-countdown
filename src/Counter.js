@@ -7,11 +7,11 @@ function Counter() {
     <div className="Counter">
       <h1 id="text">New Year in:</h1>
       <p id="counter"></p>
-      <div class="pyro">
-        <div class="before"></div>
-        <div class="after"></div>
+      <div className="pyro">
+        <div className="before"></div>
+        <div className="after"></div>
       </div>
-      <p id="creator">Ian Palisak</p>
+      <p id="creator">Burnbag</p>
     </div>
   );
 }
