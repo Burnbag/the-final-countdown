@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+.Counter {
+  font-family: 'Alatsi', sans-serif;
+  text-align: center;
+}
+#text{
+  font-size: 75px;
+  font-weight: lighter;
+  color: white;
+}
+#counter{
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+}
+#creator{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 5px;
+}
