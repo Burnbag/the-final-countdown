@@ -17,8 +17,11 @@ function Counter() {
 }
 
 var newYear = "Jan 1, 2020 0:0:0";
+var testDate = "Dec 10, 2019 0:4:0";
 var countDownDate = new Date(newYear).getTime();
+
 var audio = new Audio('./audio.mp3');
+var countdown = new Audio('./countdown.mp3');
 
 var timer = setInterval(function () {
   
@@ -39,8 +42,14 @@ var timer = setInterval(function () {
     document.getElementById("counter-title").innerHTML = "New Year";
     document.getElementById("text").style = "display: none;";
   }
-  if (distance < 157000) {
+  if (distance < 333000) {
     audio.play();
+  }
+  if (distance < 60000) {
+    countdown.play();
+  }
+  if (distance < 0) {
+    audio.pause();
   }
 
 }, 1000);
