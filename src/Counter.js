@@ -43,6 +43,6 @@ var timer = setInterval(function () {
     audio.play();
   }
 
-}, 1);
+}, 1000);
 
 export default Counter;
