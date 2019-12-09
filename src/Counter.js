@@ -5,7 +5,7 @@ import './fireworks.scss';
 function Counter() {
   return (
     <div className="Counter">
-      <h1 id="text">New Year in:</h1>
+      <h1 id="text">New Year <b>2020</b> in:</h1>
       <p id="counter"></p>
       <div className="pyro">
         <div className="before"></div>
