@@ -15,6 +15,7 @@ function Counter() {
     </div>
   );
 }
+
 var newYear = "Jan 1, 2020 0:0:0";
 var countDownDate = new Date(newYear).getTime();
 var audio = new Audio('./audio.mp3');
@@ -36,12 +37,12 @@ var timer = setInterval(function () {
     clearInterval(timer);
     document.getElementById("counter").innerHTML = "Happy New Year";
     document.getElementById("counter-title").innerHTML = "New Year";
-    document.getElementById("text").innerHTML = "";
+    document.getElementById("text").style = "display: none;";
   }
   if (distance < 157000) {
     audio.play();
   }
 
-}, 1000);
+}, 1);
 
 export default Counter;

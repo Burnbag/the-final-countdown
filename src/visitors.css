@@ -1,9 +1,0 @@
-#online-now {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    /* add a transition so it'll fade in nicely */
-    transition: opacity 0.2s ease-out;
-  }
-  
-  #online-now.visible {
-    opacity: 1;
-  }
