@@ -1,13 +1,13 @@
-$particles: 120;
-$width: 1200;
-$height: 1200;
+$particles: 40;
+$width: 150;
+$height: 150;
 
 $box-shadow: ();
 $box-shadow2: ();
 @for $i from 0 through $particles {
   $box-shadow: $box-shadow,
                random($width)-$width / 2 + px
-               random($height)-$height / 0.8 + px
+               random($height)-$height / 0.5 + px
                hsl(random(250), 100, 50);
   $box-shadow2: $box-shadow2, 0 0 #fff
 }
