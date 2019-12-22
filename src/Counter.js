@@ -7,17 +7,17 @@ function Counter() {
     <div className="Counter">
       <h1 id="text">New Year <b>2020</b> in:</h1>
       <p id="counter"></p>
-      <div className="pyro">
-        <div className="before"></div>
-        <div className="after"></div>
-      </div>
+        <div className="pyro">
+          <div className="before"></div>
+          <div className="after"></div>
+        </div>
+      <img src="./gif.gif" alt="gif" id="gif"></img>
       <p id="creator">Burnbag</p>
     </div>
   );
 }
 
 var newYear = "Jan 1, 2020 0:0:0";
-var testDate = "Dec 10, 2019 0:4:0";
 var countDownDate = new Date(newYear).getTime();
 
 var audio = new Audio('./audio.mp3');
