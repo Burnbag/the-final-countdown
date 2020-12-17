@@ -5,7 +5,7 @@ import './fireworks.scss';
 function Counter() {
   return (
     <div className="Counter">
-      <h1 id="text">New Year <b>2020</b> in:</h1>
+      <h1 id="text">New Year <b>2021</b> in:</h1>
       <p id="counter"></p>
         <div className="pyro">
           <div className="before"></div>
@@ -17,7 +17,7 @@ function Counter() {
   );
 }
 
-var newYear = "Jan 1, 2020 0:0:0";
+var newYear = "Jan 1, 2021 0:0:0";
 var countDownDate = new Date(newYear).getTime();
 
 var audio = new Audio('./audio.mp3');
